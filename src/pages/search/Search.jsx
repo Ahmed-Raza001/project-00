@@ -47,7 +47,7 @@ const Search = () => {
                 </div>
 
                 <div className="">
-                     <label htmlFor="time" className="block mb-2 font-semibold">
+                     <label htmlFor="seat" className="block mb-2 font-semibold">
                         Total Seat
                     </label>
                     <input type="number" id="seat" placeholder='Enter seat' name="seat" className="w-full  appearance-none text-neutral-800 dark:text-neutral-100 placeholder:text-neutral-400 dark:placeholder:text-neutral-600 inline-block bg-neutral-200/60 dark:bg-neutral-900/60 px-3 h-12 border border-neutral-200 dark:border-neutral-900 rounded-md focus:outlie-none focus:bg-neutral-100 dark:focus:bg-neutral-900" />
