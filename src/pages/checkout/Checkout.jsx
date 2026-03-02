@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaArrowRightLong } from 'react-icons/fa6'
 
 const Checkout = () => {
   return (
@@ -58,7 +59,7 @@ const Checkout = () => {
                                 </span>
                             </div>
                             <div className="flex-1">
-                                
+                                <div className="w-full h-[1px] border border-dashed border-neutral-400 dark:border-neutral-700/80"></div>
                             </div>
                              <div className="w-fit text-base font-medium">
                                 To:- <span ClassName="ml-1.5">
@@ -66,12 +67,56 @@ const Checkout = () => {
                                 </span>
                             </div>
                         </div>
+
+                        <div className="w-full flex items-center gap-x-3">
+                              <div className="w-fit text-base font-medium">
+                                Arrive at:- <span ClassName="ml-1.5">
+                                    03:30 PM
+                                </span>
+                            </div>
+                            <div className="flex-1">
+                                <div className="w-full h-[1px] border border-dashed border-neutral-400 dark:border-neutral-700/80"></div>
+                            </div>
+                             <div className="w-fit text-base font-medium">
+                                Depart at:- <span ClassName="ml-1.5">
+                                    04:00 PM
+                                </span>
+                            </div>
+                        </div>
+
+                        <div className="space-y-4">
+                            <div className="w-full flex items-center justify-between">
+                                <h6 className="text-base text-neutral-700 dark:text-neutral-200 font-medium">
+                                    Total No. of Seats
+                                </h6>
+
+
+                                 <h6 className="text-base text-neutral-700 dark:text-neutral-200 font-medium">
+                                    10 <span className="text-xs">
+                                        (Driver Side)
+                                    </span>
+                                </h6>
+                            </div>
+                             <div className="w-full flex items-center justify-between">
+                                <h6 className="text-base text-neutral-700 dark:text-neutral-200 font-medium">
+                                    Total Amount
+                                </h6>
+
+                                 <h6 className="text-base text-neutral-700 dark:text-neutral-200 font-medium">
+                                  Rs.5000
+                                </h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
             </div>
+
+            <button className="w-full px-8 h-12 bg-violet-600 text-neutral-50 text-base font-normal rounded-md flex items-center justify-center gap-x-2">
+                Processed to Pay <FaArrowRightLong />
+            </button>
         </div>
     </div>
+</div>
   )
 }
 
