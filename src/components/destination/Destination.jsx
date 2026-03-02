@@ -13,7 +13,7 @@ const Destination = () => {
         setTo(e.target.value);
     }
 
-    const isDestinationSelected = from && to;
+     const isDestinationSelected = from && to;
 
   return (
     <div className='w-full space-y-4'>
@@ -30,7 +30,7 @@ const Destination = () => {
                 name="from"
                 value={from}
                 onChange={handleFromChange}
-                id="from" className="w-full appearance-none text-neutral-800 dark:text-neutral-100 placeholder:text-neutral-400 dark:placeholder:text-neutral-600 inline-block bg-neutral-200/60 dark:bg-neutral-900/60 px-3 h-11 border border-neutral-200 dark:border-neutral-900 rounded-md focus:outlie-none focus:bg-neutral-100 dark:focus:bg-neutral-900">
+                id="from" className="w-full appearance-none text-neutral-800 dark:text-neutral-100 placeholder:text-neutral-400 dark:placeholder:text-neutral-600 inline-block bg-neutral-200/60 dark:bg-neutral-900/60 px-3 h-11 border border-neutral-200 dark:border-neutral-900 rounded-md focus:outline-none focus:bg-neutral-100 dark:focus:bg-neutral-900">
                 <option value="">Select Location</option>
                 <option value="location1">Location 1</option>
                 <option value="location2">Location 2</option>

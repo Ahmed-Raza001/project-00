@@ -1,10 +1,10 @@
 import React from 'react'
-
 import Bus from '../../assets/bus9.png';
 import { FaStar } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import Destination from '../../components/destination/Destination';
 import DepartTime from '../../components/departtime/DepartTime';
+import BusSeatLayout from '../../components/seat/Seat';
 
 const Detail = () => {
   return (
@@ -50,6 +50,7 @@ const Detail = () => {
 
                 </div>
                {/* Seat Selection */}
+               <BusSeatLayout />
 
                {/* Checkout Btn */}
                <div className="flex">
